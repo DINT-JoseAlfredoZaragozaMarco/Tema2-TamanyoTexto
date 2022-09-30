@@ -13,9 +13,9 @@
                 <DropShadowEffect BlurRadius="7" Opacity="0.4"/>
             </TextBlock.Effect>
         </TextBlock>
-        <RadioButton x:Name="pequeñoRadioButton" Content="Pequeño" HorizontalAlignment="Left" Margin="127,300,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked" FontSize="24" GroupName="tamaño"/>
-        <RadioButton x:Name="medianoRadioButton" Content="Mediano" HorizontalAlignment="Left" Margin="391,300,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked" FontSize="24" GroupName="tamaño"/>
-        <RadioButton x:Name="grandeRadioButton" Content="Grande" HorizontalAlignment="Left" Margin="633,300,0,0" VerticalAlignment="Top" FontSize="24" GroupName="tamaño" Checked="RadioButton_Checked"/>
+        <RadioButton x:Name="pequeñoRadioButton" Tag ="36" Content="Pequeño" HorizontalAlignment="Left" Margin="127,300,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked" FontSize="24" GroupName="tamaño"/>
+        <RadioButton x:Name="medianoRadioButton" Tag ="48" Content="Mediano" HorizontalAlignment="Left" Margin="391,300,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked" FontSize="24" GroupName="tamaño"/>
+        <RadioButton x:Name="grandeRadioButton" Tag ="72" Content="Grande" HorizontalAlignment="Left" Margin="633,300,0,0" VerticalAlignment="Top" FontSize="24" GroupName="tamaño" Checked="RadioButton_Checked"/>
 
     </Grid>
 </Window>

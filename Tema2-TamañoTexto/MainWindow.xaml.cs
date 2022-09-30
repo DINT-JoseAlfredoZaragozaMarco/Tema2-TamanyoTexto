@@ -28,18 +28,7 @@ namespace Tema2_TamañoTexto
 
         private void RadioButton_Checked(object sender, RoutedEventArgs e)
         {
-            if (pequeñoRadioButton.IsChecked == true)
-            {
-                textoTextBlock.FontSize = 36;
-            }
-            else if(medianoRadioButton.IsChecked == true)
-            {
-                textoTextBlock.FontSize = 48;
-            }
-            else if(grandeRadioButton.IsChecked == true)
-            {
-                textoTextBlock.FontSize = 72;
-            }
+            textoTextBlock.FontSize = int.Parse((sender as RadioButton).Tag.ToString());
         }
     }
 }
