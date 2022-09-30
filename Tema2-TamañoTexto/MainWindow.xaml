@@ -1,0 +1,21 @@
+﻿<Window x:Class="Tema2_TamañoTexto.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tema2_TamañoTexto"
+        mc:Ignorable="d"
+        Icon="./assets/text_size_icon.png"
+        Title="Tamaño del texto" Height="450" Width="874.792">
+    <Grid>
+        <TextBlock x:Name="textoTextBlock" HorizontalAlignment="Left" Margin="0,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="Desarrollo de Interfaces" FontSize="22" Width="867" TextAlignment="Center" FontWeight="Bold" Foreground="#FF0095DA">
+            <TextBlock.Effect>
+                <DropShadowEffect BlurRadius="7" Opacity="0.4"/>
+            </TextBlock.Effect>
+        </TextBlock>
+        <RadioButton x:Name="pequeñoRadioButton" Content="Pequeño" HorizontalAlignment="Left" Margin="127,300,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked" FontSize="24" GroupName="tamaño"/>
+        <RadioButton x:Name="medianoRadioButton" Content="Mediano" HorizontalAlignment="Left" Margin="391,300,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked" FontSize="24" GroupName="tamaño"/>
+        <RadioButton x:Name="grandeRadioButton" Content="Grande" HorizontalAlignment="Left" Margin="633,300,0,0" VerticalAlignment="Top" FontSize="24" GroupName="tamaño" Checked="RadioButton_Checked"/>
+
+    </Grid>
+</Window>
